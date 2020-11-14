@@ -1,0 +1,283 @@
+body{
+    margin: none;
+}
+.header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background: white;
+}
+.menu{
+    margin: auto;
+}
+.menu-icon{
+    color: blue;
+}
+.title{
+    color: blue;
+    font-weight: bolder;
+    text-align: center;
+}
+.title p{
+    margin: 0px;
+}
+.busca{
+    color: blue !important;
+    margin: auto;
+    padding-left: 400px;
+}
+.foto-principal{
+    position: relative;
+    z-index: 0;
+}
+.img-obama{
+    margin-top: 40px;
+    max-width: 100%;
+}
+.principal{
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    background-color: white;
+    margin-top: -400px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    padding: 15px;
+}
+.bio{
+    text-align: justify;
+}
+.other-infos{
+    width: 100%;
+    margin: auto;
+}
+.card-infos{
+    width: 8rem;
+    height: 7rem;
+    display: inline-flex;
+    margin: 10px;
+    text-align:center;
+    font-size: smaller;
+    font-weight: bolder;
+    color: rgb(87, 87, 87);
+    background: rgba(248, 248, 248, 0.767);
+    border-radius: 5px;
+    border: rgb(240, 240, 240);
+    border-style: double;
+    border-width: 3px;
+}
+.situacao{
+    margin: 2rem;
+    border-radius: 10px;
+    border: rgb(240, 240, 240);
+    border-style: double;
+    border-width: 3px;
+}
+.situacao-texto{
+    padding: 3px;
+    text-align: left;
+    font-size: x-large;
+    color: rgb(87, 87, 87);
+    background: rgba(248, 248, 248, 0.767);
+}
+.situacao-texto p{
+    font-style: italic;
+    font-size: small;
+}
+.situacao-status{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 15px;
+    background: rgb(1, 116, 82);
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+.barra{
+    margin: 2rem;
+    border-radius: 10px;
+}
+.historico{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 15px;
+    background: rgb(0, 0, 199);
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+.propostas{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 15px;
+    background: blue;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+.card-materias{
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    overflow: hidden;
+}
+.card-materias > .card-materias-img{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    height: 18rem;
+}
+.card-materias > .card-materias-body{
+    position: absolute;
+    top: 0;
+    width: 18rem;
+    height: 18rem;
+    padding: 10px;
+    z-index: 3;
+    background: rgba(0, 0, 0, 0.603);
+}
+.card-materias > .card-materias-body > p{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    color: white;
+    font-size: x-large;
+    font-weight: 400;
+}
+.card-candidato{
+    display: inline-block;
+    margin: 5px;
+    width: 10rem;
+}
+.card-candidato > .card-candidato-img{
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+.card-candidato-body h4{
+    
+    color: black;
+    text-align: center;
+}
+.card-candidato-body p{
+    font-size: xx-small;
+    font-style: oblique;
+    text-align: center;
+    color: gray;
+}
+.linha{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border-bottom: grey;
+    border-bottom-style: solid;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    background: blue;
+}
+.texto{
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+@media screen and (max-width: 992px){
+    .busca{
+        color: blue !important;
+        margin: auto;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .principal{
+        margin-top: -100px;
+    }
+    .card-infos{
+        width: 8rem;
+        height: 7rem;
+        display: inline-flex;
+        margin: 10px;
+        text-align:center;
+        font-size: smaller;
+        font-weight: bolder;
+        color: rgb(87, 87, 87);
+        background: rgba(248, 248, 248, 0.767);
+        border-radius: 5px;
+        border: rgb(240, 240, 240);
+        border-style: double;
+        border-width: 3px;
+    }
+    
+    .situacao-texto{
+        padding: 3px;
+        text-align: left;
+        font-size: smaller;
+        color: rgb(87, 87, 87);
+        background: rgba(248, 248, 248, 0.767);
+    }
+    .situacao-texto p{
+        font-style: italic;
+        font-size: x-small;
+    }
+    .situacao-status{
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 15px;
+        background: rgb(1, 116, 82);
+        color: white;
+        font-size: smaller;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .historico{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 15px;
+        background: rgb(0, 0, 199);
+        color: white;
+        font-size: initial;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .propostas{
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 15px;
+        background: blue;
+        color: white;
+        font-size: initial;
+        font-weight: bolder;
+        text-align: center;
+    }
+   
+    .card-candidato{
+        display: inline-block;
+        margin: 5px;
+        width: 8rem;
+    }
+    .card-candidato > .card-candidato-img{
+        border-radius: 50%;
+        width: 100%;
+        height: auto;
+    }
+    .card-candidato-body h4{
+        
+        color: black;
+        text-align: center;
+    }
+    .card-candidato-body p{
+        font-size: xx-small;
+        font-style: oblique;
+        text-align: center;
+        color: gray;
+    }
+}
